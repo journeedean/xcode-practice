@@ -1,6 +1,9 @@
 import UIKit
 
-/*var goldBars = 100
+/* MY PRACTICE FILE */
+
+
+var goldBars = 100
 
 func spendTenGoldBars(from inventory: inout Int,completion: (Int) -> Void) {
     inventory -= 10
@@ -10,8 +13,8 @@ print("You had \(goldBars) gold bars.")
 spendTenGoldBars(from: &goldBars) { goldBars in
     print("You spend ten gold bars")
     print("You have \(goldBars) gold bars.")}
-*/
-/*
+
+
 struct TableReservation {
     var name: String
     var tableNumber: Int
@@ -27,10 +30,10 @@ var johnBooking = TableReservation(name: "John", tableNumber: 1)
 print(johnBooking)
 johnBooking.updateBooking(updatedName: "Maria")
 print(johnBooking)
-*/
 
 
-/*
+
+
 class LocalFile {
     let name: String
     let fileExtension: String
@@ -46,8 +49,8 @@ class LocalFile {
 
 let file = LocalFile(name: "image", fileExtension: "png")
 print(file.fullFileName)
-*/
-/*
+
+
 struct Employee {
   var salary: Double
   var tax = 0.2
@@ -96,9 +99,9 @@ class Square {
 let square = Square()
 square.width = 2
 print(square.area)
-*/
 
-/*
+
+
 struct Book {
     var title: String
     var author: String
@@ -112,8 +115,8 @@ func printBookInfo(book: Book){
 let myBook = Book(title: "To Kill A Mockingbird", author: "Harper Lee", yearPublished: 1960)
 
 printBookInfo(book: myBook)
-*/
-/*
+
+
 func checkEvenOrOrdd(num: Int) {
     if num % 2 == 0 {
         print("The number \(num) is even")
@@ -124,5 +127,5 @@ func checkEvenOrOrdd(num: Int) {
 }
 
 checkEvenOrOrdd(num: 3)
-*/
+
 
